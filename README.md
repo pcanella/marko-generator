@@ -1,4 +1,5 @@
-# generator-yeoman-marko [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-marko
+
 > Dead simple Marko component file generator
 
 ## Installation
@@ -7,21 +8,24 @@ First, install [Yeoman](http://yeoman.io) and generator-yeoman-marko using [npm]
 
 ```bash
 npm install -g yo
-npm install -g generator-yeoman-marko
+npm install -g generator-marko
 ```
+
+# Choices
+When you run `yo marko` you'll have two choices:
+```bash
+ * What would you like to name this component? # default is marko-component
+ * Would you like namespaced scaffolding? If you type "no", all files will be blank and not namespaced, including browser.json # Default is "yes"
+
+```
+
 
 Then generate your new project:
 
 ```bash
-yo yeoman-marko
+yo marko
 ```
 
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 ## License
 
