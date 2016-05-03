@@ -2,10 +2,10 @@
   "name": "generator-marko",
   "version": "0.0.1",
   "description": "Dead simple Marko component file generator",
-  "homepage": "https://github.com/pcanella/yeoman-marko",
+  "homepage": "https://github.com/pcanella/marko-generator",
   "author": {
     "name": "Patrick Canella",
-    "email": "pcanella@ebay.com",
+    "email": "patrickcanella@gmail.com",
     "url": "https://pcanella.github.io"
   },
   "files": [
@@ -44,7 +44,7 @@
       "mocha": true
     }
   },
-  "repository": "https://github.scm.corp.ebay.com/ete/Fluid-demo-cubejs",
+  "repository": "https://github.com/pcanella/marko-generator",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
