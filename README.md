@@ -25,6 +25,24 @@ When you run `yo marko` you'll have two choices:
 
 ```
 
+# What it generates
+`yo marko` generates the following files:
+```
+index.js
+renderer.js
+widget.js
+template.marko
+style.less
+browser.json
+```
+
+If you choose `Y` at the `namespaced scaffolding` step, it will generate `.your-component{}` in your `.less` file and 
+```html
+<div class="your-component" widget="./widget"></div>
+``` 
+in your `template.marko` file. 
+
+If you choose `N`, then every file will be blank.
 
 ## License
 
