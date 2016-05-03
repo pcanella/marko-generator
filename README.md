@@ -15,7 +15,8 @@ npm install -g generator-marko
 When you run `yo marko` you'll have two choices:
 ```bash
  * What would you like to name this component? # default is marko-component
- * Would you like namespaced scaffolding? If you type "no", all files will be blank and not namespaced, including browser.json # Default is "yes"
+ * Would you like namespaced scaffolding?
+ If you type "no", all files will be blank and not namespaced, including browser.json # Default is "yes"
 
 ```
 
