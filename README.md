@@ -11,6 +11,11 @@ npm install -g yo
 npm install -g generator-marko
 ```
 
+# How to run
+```bash
+yo marko
+```
+
 # Choices
 When you run `yo marko` you'll have two choices:
 ```bash
@@ -18,13 +23,6 @@ When you run `yo marko` you'll have two choices:
  * Would you like namespaced scaffolding?
    If you type "no", all files will be blank and not namespaced, including browser.json # Default is "yes"
 
-```
-
-
-Then generate your new project:
-
-```bash
-yo marko
 ```
 
 
