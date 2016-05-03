@@ -35,6 +35,7 @@ template.marko
 style.less
 browser.json
 ```
+FYI: (check out the generated file contents)[https://github.com/pcanella/marko-generator/tree/master/generators/app/templates]
 
 If you choose `Y` at the `namespaced scaffolding` step, it will generate `.your-component{}` in your `.less` file and 
 ```html
