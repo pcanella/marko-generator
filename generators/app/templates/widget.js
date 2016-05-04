@@ -83,5 +83,4 @@ module.exports = require('marko-widgets').defineWidget({
 
     },
 
-}
 });
