@@ -9,9 +9,7 @@ var template = require('./template.marko');
  */
 
 function getInitialState(input) {
-
-    var d = parseUtil.parse(dataSchema, input);
-    return d;
+   return input;
 }
 
 /**

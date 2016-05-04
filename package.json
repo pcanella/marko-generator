@@ -1,6 +1,6 @@
 {
   "name": "generator-marko",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Dead simple Marko component file generator",
   "homepage": "https://github.com/pcanella/marko-generator",
   "author": {
