@@ -15,6 +15,8 @@ npm install -g generator-marko
 ```bash
 yo marko
 ```
+Note: Make sure you are in the directory that you want the newly generated component folder to be in!
+
 
 # Choices
 When you run `yo marko` you'll have two choices:
