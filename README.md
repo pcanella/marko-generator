@@ -36,14 +36,16 @@ widget.js
 template.marko
 style.less
 browser.json
+mock-data/
+unit-tests/
 ```
 FYI: [check out the generated file contents](https://github.com/pcanella/marko-generator/tree/master/generators/app/templates)
 
-If you choose `Y` at the `namespaced scaffolding` step, it will generate `.your-component{}` in your `.less` file and 
+If you choose `Y` at the `namespaced scaffolding` step, it will generate `.your-component{}` in your `.less` file and
 ```html
 <div class="your-component" widget="./widget"></div>
-``` 
-in your `template.marko` file. 
+```
+in your `template.marko` file.
 
 If you choose `N`, then every file will be blank.
 

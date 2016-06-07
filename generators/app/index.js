@@ -63,6 +63,9 @@ module.exports = yeoman.Base.extend({
         console.log(err);
         return;
       }
+      // Create folders for mock-data and unit-tests
+      mkdirp.sync(componentName + '/mock-data');
+      mkdirp.sync(componentName + '/unit-tests');
 
       var splitFiles = [];
       glob(self.sourceRoot() + '/*.*', { realpath: false }, function (er, files) {
