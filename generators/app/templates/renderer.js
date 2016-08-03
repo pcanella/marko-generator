@@ -25,7 +25,7 @@ function getTemplateData(state, input) {
 }
 
 /**
- * Exports refinepanel-footer marko component
+ * Exports marko component
  */
 
 module.exports = require('marko-widgets').defineRenderer({

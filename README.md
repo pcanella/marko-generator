@@ -36,8 +36,8 @@ widget.js
 template.marko
 style.less
 browser.json
-mock-data/
-unit-tests/
+mock-data/index.js
+unit-tests/renderer.js
 ```
 FYI: [check out the generated file contents](https://github.com/pcanella/marko-generator/tree/master/generators/app/templates)
 
